@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Karla';
+}
+
+:root {
+    --cor1: #71B8BB;
+    --cor2: #4BBFBB;
+    --cor3: #67C6C9;
+    --cor4: #CCDC6C;
+    --cor5: #C8E451;
+    --cor6: #a2a2a2;
+    --cor7: #cfcfcf;
+    --font1: 1.2em;
+    --font2: 0.8em;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url(karla/Karla-Regular.ttf) format('truetype');
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(pexels-ovan-62693.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    width: 250px;
+    height: 500px;
+
+    background-color: white;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.353);
+
+    overflow: hidden;
+
+    font-size: var(--font2);
+}
+
+div#join {
+    width: 100%;
+    height: 33.3%;
+    
+    padding: 15px;
+}
+
+div#join > h1 {
+    margin-bottom: 5px;
+
+    color: var(--cor1);
+}
+
+div#join > p#subtitle {
+    margin-bottom: 5px;
+
+    color: var(--cor4);
+}
+
+div#join > p {
+    text-align: justify;
+
+    color: var(--cor6);
+}
+
+div#container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 67%;
+}
+
+#subscription {
+    width: 100%;
+    height: 50%;
+
+    padding: 15px;
+
+    background-color: var(--cor2);
+
+    font-size: var(--font1);
+}
+
+#subscription > h2 {
+
+    color: white;
+}
+
+#subscription > p#monthly > strong {
+
+    color: white;
+}
+
+#subscription > p#monthly {
+
+    color: var(--cor7);
+}
+
+#subscription > p#access {
+    font-size: 0.8em;
+
+    color: white;
+}
+
+#subscription > a {
+    display: block;
+
+    margin-top: 5px;
+    padding: 15px;
+
+    width: 100%;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+    background-color: #C8E451;
+}
+
+#subscription > a:hover {
+    background-color: #a1b643;
+}
+
+#whyus {
+    width: 100%;
+    height: 50%;
+
+    padding: 15px;
+
+    background-color: var(--cor3);
+}
+
+#whyus > h2 {
+
+    color: white;
+}
+
+#whyus > ul > li {
+
+    color: var(--cor7);
+}

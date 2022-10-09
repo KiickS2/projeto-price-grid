@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 772px) {
+
+    section {
+        width: 768px;
+        height: 500px;
+    }
+
+    div#join {
+        width: 100%;
+        height: 40%;
+
+        font-size:24px;
+    }
+
+    div#container {
+        flex-direction: row;
+
+        width: 100%;
+        height: 60%;
+    }
+
+    div#subscription, div#whyus {
+        height: 100%;
+
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    div#subscription > h2 {
+        margin-bottom: 20px;
+
+        font-size: 1.3em;
+    }
+
+    div#subscription > p > strong {
+        font-size: 2.5em;
+    }
+
+    div#subscription > a {
+        margin-top: 30px;
+
+        padding: 30px;
+    }
+
+    div#whyus > h2 {
+        margin-bottom: 20px;
+
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    section {
+        width: 990px;
+        height: 650px;
+    }
+
+    div#join {
+        font-size: 33px;
+    }
+
+    div#subscription, div#whyus {
+        height: 100%;
+
+        font-size: 33px;
+        line-height: 40px;
+    }
+
+    div#subscription > p > strong {
+        font-size: 2.8em;
+    }
+
+    div#subscription > a {
+
+        padding: 40px;
+    }
+}
